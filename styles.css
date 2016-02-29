@@ -36,9 +36,10 @@
 .employee-container {
   margin-top: 30px;
 }
+
 .pure-table {
   width: 800px;
 }
-.pure-table tr {
-  width: 800px;
+td button {
+  margin: 0;
 }

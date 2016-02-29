@@ -18,7 +18,7 @@ function totalMonthlyPay() {
 }
 
 function deleteEmployee() {
-  // This 2nd approach
+  // This is 2nd approach
   // var emplID = $(this).parent().data('emplID');
 
   //get emplID data from DOM employee class element
@@ -28,9 +28,6 @@ function deleteEmployee() {
 
       employeeList.splice(i, 1);
       totalMonthlyPay();
-      // stop funciton execution
-      // ask Scott or Ryan about this stop???
-
     }
   }
 
@@ -53,7 +50,7 @@ function addEmployee(employee) {
   $("tbody").append('<tr class="employee"></tr>');
   var $el = $("tbody").children().last();
   j++;
-  $el.append('<td>'+j+'</td>')
+  $el.append('<td>'+j+'</td>');
   $el.append('<td>'+employee.firstname+'</td>');
   $el.append('<td>'+employee.lastname+'</td>');
   $el.append('<td>'+employee.employeeid+'</td>');
