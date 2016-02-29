@@ -56,7 +56,7 @@ function addEmployee(employee) {
   $el.append('<td>'+employee.employeeid+'</td>');
   $el.append('<td>'+employee.jobtitle+'</td>');
   $el.append('<td>$'+numberWithCommas(employee.salary)+'</td>');
-  $el.append('<td><button class="delete">Delete</button><td>');
+  $el.append('<td><button class="delete">Delete</button></td>');
   $el.data('emplID', employee.employeeid);
   totalMonthlyPay();
 }
