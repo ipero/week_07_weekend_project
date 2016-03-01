@@ -41,20 +41,6 @@
   width: 800px;
 }
 
-/* from stackoverflow.com to number ther lines *
-.pure-table {
-  counter-reset: rowNumber;
-}
-.pure-table tr:not(:first-child) {
-    counter-increment: rowNumber;
-}
-
-.pure-table tr:not(:first-child) td:first-child::before {
-    content: counter(rowNumber);
-    min-width: 1em;
-    margin-right: 0.5em;
-} */
-
 .pure-table tbody {
   counter-reset: rowNumber;
 }
