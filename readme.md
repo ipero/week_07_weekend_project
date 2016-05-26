@@ -1,7 +1,7 @@
 <snippet>
   <content>
 # Interactive Monthly Total Pay App
-TODO: For your weekend challenge, you will need to create an application that records employees along with their salary. We also want to add the salaries up so we know how much we’re spending each month.
+For this challenge, you will need to create an application that records employees along with their salary. We also want to add the salaries up so we know how much we’re spending each month.
 
 The application should first have an input form that collects: The Employee's First and Last name The Employee's ID Number The Employee's Job Title The Employee's Salary (Yearly)
 
@@ -15,10 +15,8 @@ Pro Mode
 
 Once the employee is deleted, also update the total spend on salaries to discount the removed employee's salary. This will require that the logic knows which element was removed. You will need to stretch yourself for this one. I also recommend that you look into jQuery's .data() function to help complete this. Note, you will need to do something both when the employee is added and when they are deleted to make your application 'smart'.
 
-## Author
-Roman Hiebert
 ## License
 FOSS
 </content>
-  <tabTrigger>readme</tabTrigger>
+
 </snippet>
