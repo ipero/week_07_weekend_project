@@ -41,13 +41,13 @@
   width: 800px;
 }
 
+/* Dynamic row counter */
 .pure-table tbody {
   counter-reset: rowNumber;
 }
 .pure-table tbody tr {
     counter-increment: rowNumber;
 }
-
 .pure-table tbody tr td:first-child::before {
     content: counter(rowNumber);
     min-width: 1em;
